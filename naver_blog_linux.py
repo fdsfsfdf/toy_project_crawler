@@ -167,7 +167,7 @@ def naver_blog():
     print("=" *80)
     print(f"작업 완료. 작업 시간 : {t_time}")
     print("=" *80)
-    driver.close( )
+    driver.quit( )
 
 
 naver_blog()
