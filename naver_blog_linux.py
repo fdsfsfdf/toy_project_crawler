@@ -57,13 +57,13 @@ def naver_blog():
     n = time.localtime()
     s = '%04d-%02d-%02d-%02d-%02d-%02d' % (n.tm_year, n.tm_mon, n.tm_mday, n.tm_hour, n.tm_min, n.tm_sec)
     # day = time.strftime('%Y-%m-%d')
-    os.chdir(f_dir)
-    os.makedirs(f_dir+s+'-'+keyword)
-    os.chdir(f_dir+s+'-'+ keyword)
+#     os.chdir(f_dir)
+#     os.makedirs(f_dir+s+'-'+keyword)
+#     os.chdir(f_dir+s+'-'+ keyword)
 
     # ff_dir=f_dir+s+'-'+keyword
-    fc_name=f_dir+s+'-'+keyword+'\\'+s+'-'+startDate+'-'+endDate+'.csv'
-    fx_name=f_dir+s+'-'+keyword+'\\'+s+'-'+startDate+'-'+endDate+'.xls'
+    fc_name=keyword+'-'+startDate+'-'+endDate+'.csv'
+    fx_name=keyword+'-'+startDate+'-'+endDate+'.xls'
         
     s_time = time.time( )
 
