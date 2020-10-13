@@ -62,8 +62,8 @@ def naver_blog():
 #     os.chdir(f_dir+s+'-'+ keyword)
 
     # ff_dir=f_dir+s+'-'+keyword
-    fc_name=s+keyword+'-'+startDate+'-'+endDate+'.csv'
-    fx_name=s+keyword+'-'+startDate+'-'+endDate+'.xls'
+    fc_name=s+'-'+keyword+'-'+startDate+'-'+endDate+'.csv'
+    fx_name=s+'-'+keyword+'-'+startDate+'-'+endDate+'.xls'
         
     s_time = time.time( )
 
